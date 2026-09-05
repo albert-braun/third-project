@@ -1,0 +1,46 @@
+.linkRow__item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: 0.3s ease;
+}
+
+.linkRow__item img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+
+.linkRow--hero,
+.linkRow--overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.linkRow--overlay {
+    align-self: flex-end;
+}
+
+.linkRow__link {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+@media (hover: hover) {
+    .linkRow__item {
+        cursor: default;
+    }
+
+    .linkRow__item:hover {
+        transform: translateY(-6px);
+    }
+}
+
+@media (max-width: 599px) {
+    .linkRow--overlay {
+        align-self: center;
+        justify-content: center;
+    }
+}

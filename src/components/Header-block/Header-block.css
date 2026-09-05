@@ -1,0 +1,45 @@
+.HeaderBlock {
+    color: #fff;
+}
+.HeaderBlock__container {
+    position: relative;
+    height: 710px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.HeaderBlock__container::before{
+    content: url(../../img/HeaderBlock/bg.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.HeaderBlock__text-box {
+    z-index: 10;
+    max-width: 580px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.HeaderBlock__subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 142.857143%; /* 20/14 */
+     color: rgba(192, 192, 192, 0.8);
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.HeaderBlock__title {
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 91.525424%; /* 54/59 */
+    margin-bottom: 18px;
+}
+.HeaderBlock__text {
+    color: rgba(192, 192, 192, 0.8);
+    font-size: 14px;
+    line-height: 142.857143%; /* 20/14 */
+}

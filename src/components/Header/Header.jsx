@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import { useEffect, useState } from "react"
 import "./Header.css"
 import logo from "../../img/Header/logo.png"

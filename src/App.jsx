@@ -190,7 +190,11 @@ body {
 }
 `
 function App() {
+<<<<<<< HEAD
 
+=======
+  const [count, setCount] = useState(0)
+>>>>>>> 6ce6cec4dd9f42a52f0c076e11888da178fff3d4
 
   return (
     <div className="wrapper">

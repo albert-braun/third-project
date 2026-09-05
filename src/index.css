@@ -1,5 +1,4 @@
 :root {
-<<<<<<< HEAD
   --container-width: 1210px;
   --container-padding: clamp(16px, 4vw, 24px);
   --font-main: "Poppins", sans-serif;
@@ -147,6 +146,10 @@ a:focus-visible {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
   .reveal,
   .reveal--left,
   .reveal--right,
@@ -158,28 +161,3 @@ a:focus-visible {
     will-change: auto;
   }
 }
-=======
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-
-html, body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
->>>>>>> be82fe8ea0354771f6cdf32cd04f26e0d8ba6f1b

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .linkRow__item {
     display: flex;
     align-items: center;
@@ -43,4 +44,20 @@
         align-self: center;
         justify-content: center;
     }
+=======
+.linkRow__item{
+ display: flex;
+ align-items: center;
+ gap: 6px;
+ transition: 0.3s all ease-in-out;
+ cursor: pointer    ;
+}
+.linkRow__item:hover{
+    transform: translateY(-10px)
+}
+.linkRow__link{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+>>>>>>> be82fe8ea0354771f6cdf32cd04f26e0d8ba6f1b
 }

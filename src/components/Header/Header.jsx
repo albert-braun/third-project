@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect, useState } from "react"
 import "./Header.css"
 import logo from "../../img/Header/logo.png"
@@ -66,9 +67,33 @@ export default function Header() {
                         <a href="#contact" className="header__button" onClick={close}>
                             Get template
                         </a>
+=======
+import "./Header.css"
+import logo from "../../img/Header/logo.png"
+export default function Header() {
+    return (
+        <header className="header">
+            <div className="container">
+                <div className="header__row">
+                    <div className="header__logo">
+                        <img src={logo} alt="" />
+                    </div>
+                    <nav className="header__nav">
+                        <ul className="header__list">
+                            <li className="header__item"><a href="" className="header__link">Contact</a></li>
+                            <li className="header__item"><a href="" className="header__link">Gear cage</a></li>
+                            <li className="header__item"><a href="" className="header__link">Featured images</a></li>
+                            <li className="header__item"><a href="" className="header__link">Business areas</a></li>
+                        </ul>
+                        <a href="#" className="header__button">Get template</a>
+>>>>>>> be82fe8ea0354771f6cdf32cd04f26e0d8ba6f1b
                     </nav>
                 </div>
             </div>
         </header>
     )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> be82fe8ea0354771f6cdf32cd04f26e0d8ba6f1b

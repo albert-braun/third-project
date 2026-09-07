@@ -1,8 +1,23 @@
-# React + Vite
+# Aperture Studios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Photography studio landing: header, past work, tools and footer. Image-first layout from Figma, built with React and a mix of CSS and styled-components.
 
-Currently, two official plugins are available:
+**Live:** [albert-braun.github.io/third-project](https://albert-braun.github.io/third-project/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Stack
+- React 18
+- Vite
+- styled-components
+- CSS (section styles)
+- GitHub Pages
+
+## What’s in the UI
+- Full-width photo blocks and studio copy
+- Work / past-projects section
+- Responsive header and footer
+
+## Run locally
+```bash
+npm install
+npm run dev
+```
